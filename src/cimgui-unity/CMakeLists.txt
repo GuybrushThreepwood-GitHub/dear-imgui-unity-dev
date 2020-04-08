@@ -30,7 +30,7 @@ if (WIN32)
     target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_IMPL_API="extern \"C\" __declspec\(dllexport\) ")
 else (WIN32)
     target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_API=)
-    target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_IMPL_API="extern \"C\" ")
+    target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_IMPL_API="extern \" C\" ")
 endif (WIN32)
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_USER_CONFIG="imconfig_unity.h")
@@ -39,7 +39,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(${PROJECT_NAME} PUBLIC ${_cimgui_path})
 target_include_directories(${PROJECT_NAME} PUBLIC ${_cimgui_path}imgui)
 
-set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
 set_target_properties(${PROJECT_NAME} PROPERTIES OUTPUT_NAME "cimgui")
 
 # disable non UDT warnings

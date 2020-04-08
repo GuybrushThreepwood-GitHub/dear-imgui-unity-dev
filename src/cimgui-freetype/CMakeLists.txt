@@ -27,8 +27,6 @@ if (UNIX)
     target_compile_options(freetype PRIVATE -fPIC)
 endif (UNIX)
 
-set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "")
-
 # in this library we want functions marked with IMGUI_API as dllimport
 # as those come from imgui.h included headers and do not need to be exported to others
 if (WIN32)
