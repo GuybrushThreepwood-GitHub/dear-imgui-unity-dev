@@ -7,3 +7,6 @@
 [submodule "dear-imgui-project/Packages/dear-imgui-unity"]
 	path = dear-imgui-project/Packages/dear-imgui-unity
 	url = https://github.com/realgamessoftware/dear-imgui-unity.git
+[submodule "src/ImGui.NET"]
+	path = src/ImGui.NET
+	url = https://github.com/GuybrushThreepwood-GitHub/ImGui.NET.git

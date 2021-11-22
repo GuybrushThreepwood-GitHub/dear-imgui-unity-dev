@@ -12,6 +12,7 @@ file(GLOB IMGUI_SOURCES
     ${_cimgui_path}imgui/imgui_draw.cpp
     ${_cimgui_path}imgui/imgui_demo.cpp
     ${_cimgui_path}imgui/imgui_widgets.cpp
+	${_cimgui_path}imgui/imgui_tables.cpp
 )
 
 set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
