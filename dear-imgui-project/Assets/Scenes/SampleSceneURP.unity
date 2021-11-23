@@ -207,7 +207,7 @@ MonoBehaviour:
   _renderFeature: {fileID: -9008181903183708242, guid: 4a8e21d5c33334b11b34a596161b9360,
     type: 2}
   _rendererType: 0
-  _platformType: 1
+  _platformType: 0
   _initialConfiguration:
     KeyboardNavigation: 0
     GamepadNavigation: 0
