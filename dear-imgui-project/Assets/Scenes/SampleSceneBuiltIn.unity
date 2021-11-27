@@ -218,6 +218,7 @@ MonoBehaviour:
     FontGlobalScale: 1
     FontAllowUserScaling: 0
     TextCursorBlink: 1
+    DragClickToInputText: 0
     ResizeFromEdges: 1
     MoveFromTitleOnly: 0
     MemoryCompactTimer: 60
