@@ -4,7 +4,7 @@ using ImGuiNET;
 public class DearImGuiDemo : MonoBehaviour
 {
     void OnEnable()
-    {
+    { 
         ImGuiUn.Layout += OnLayout;
     }
 
