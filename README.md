@@ -1,4 +1,4 @@
-# dear-imgui-unity-dev v1.84.1
+# dear-imgui-unity-dev - v1.84.1
 Dear ImGui integration into Unity (package: https://github.com/GuybrushThreepwood-GitHub/dear-imgui-unity)
 
 Dump of the complete process, so even I can remember.
