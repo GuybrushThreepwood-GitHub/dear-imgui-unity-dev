@@ -1,4 +1,4 @@
-# dear-imgui-unity-dev
+# dear-imgui-unity-dev v1.84.1
 Dear ImGui integration into Unity (package: https://github.com/GuybrushThreepwood-GitHub/dear-imgui-unity)
 
 Dump of the complete process, so even I can remember.
@@ -9,4 +9,4 @@ Dump of the complete process, so even I can remember.
 * Copy the json files into the C# generator in the ImGui.NET project (src\ImGui.NET\src\CodeGenerator\definitions\cimgui).
 * Run the CodeGenerator project (specifying the output directory to be 'dear-imgui-project\Packages\dear-imgui-unity\ImGuiNET\Wrapper\Generated' or copy the output ****.gen.cs files to this path.
 * Update the various imgui structures inside 'dear-imgui-project\Packages\dear-imgui-unity\ImGuiNET.Unity' for new or removed values (e.g. Styles/ IO / Fonts).
-* 
+* Done?
