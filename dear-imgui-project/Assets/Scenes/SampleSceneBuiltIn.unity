@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.28502697, g: 0.37139347, b: 0.49601266, a: 1}
+  m_IndirectSpecularColor: {r: 0.2850269, g: 0.3713935, b: 0.49601045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -121,54 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &653260035
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 653260038}
-  - component: {fileID: 653260036}
-  m_Layer: 0
-  m_Name: Post-process Volume
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &653260036
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653260035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
---- !u!4 &653260038
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653260035}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1247720175
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,8 +131,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1247720177}
   - component: {fileID: 1247720179}
-  - component: {fileID: 1247720176}
   - component: {fileID: 1247720178}
+  - component: {fileID: 1247720176}
   m_Layer: 0
   m_Name: DearImGui
   m_TagString: Untagged
@@ -202,8 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _doGlobalLayout: 1
   _camera: {fileID: 1687258584}
-  _renderFeature: {fileID: -8823889317599432799, guid: 4a8e21d5c33334b11b34a596161b9360,
-    type: 2}
+  _renderFeature: {fileID: 0}
   _rendererType: 0
   _platformType: 1
   _initialConfiguration:
@@ -214,16 +165,16 @@ MonoBehaviour:
     DoubleClickTime: 0.3
     DoubleClickMaxDist: 6
     DragThreshold: 6
-    KeyRepeatDelay: 0.25
+    KeyRepeatDelay: 0.275
     KeyRepeatRate: 0.05
     FontGlobalScale: 1
     FontAllowUserScaling: 0
     TextCursorBlink: 1
+    DragClickToInputText: 0
     ResizeFromEdges: 1
     MoveFromTitleOnly: 0
     MemoryCompactTimer: 60
-  _fontAtlasConfiguration: {fileID: 11400000, guid: c28d530c65c90376d88107a476a4ea32,
-    type: 2}
+  _fontAtlasConfiguration: {fileID: 0}
   _iniSettings: {fileID: 0}
   _shaders: {fileID: 11400000, guid: 9c25b437bdcfe95449d0617c2f2ee93d, type: 2}
   _style: {fileID: 11400000, guid: 2f5e7cc338c3ffc4caddb08baa576db2, type: 2}
@@ -240,7 +191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1247720178
 MonoBehaviour:

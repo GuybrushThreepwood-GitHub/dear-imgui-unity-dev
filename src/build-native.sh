@@ -27,6 +27,6 @@ done
 
 mkdir -p build/$_CMakeBuildType
 pushd build/$_CMakeBuildType
-cmake ../.. -DCMAKE_BUILD_TYPE=$_CMakeBuildType
-make
+cmake ../.. -DCMAKE_BUILD_TYPE=$_CMakeBuildType -DFT_DISABLE_ZLIB=TRUE -DFT_DISABLE_BZIP2=TRUE -DFT_DISABLE_PNG=TRUE -DFT_DISABLE_HARFBUZZ=TRUE -DFT_DISABLE_BROTLI=TRUE 
+make -j4
 popd
